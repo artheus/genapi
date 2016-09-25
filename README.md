@@ -1,6 +1,10 @@
 # Genapi
 Generates an typescript API extension script from Spring Boot Annotation based config
 
+*License: Unlicense \< http://unlicense.org/ \>*
+
+*Copyright 2016 \< [artheus](https://github.com/artheus) \>*
+
 ## Not really tested code
 
 As you can see there are no unit tests or anything included in this project (yet, ofc)

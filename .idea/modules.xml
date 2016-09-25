@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genapi.iml" filepath="$PROJECT_DIR$/.idea/modules/genapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genapi-annotations/genapi-annotations.iml" filepath="$PROJECT_DIR$/.idea/modules/genapi-annotations/genapi-annotations.iml" group="genapi-annotations" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genapi-annotations/genapi-annotations_main.iml" filepath="$PROJECT_DIR$/.idea/modules/genapi-annotations/genapi-annotations_main.iml" group="genapi-annotations" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genapi-annotations/genapi-annotations_test.iml" filepath="$PROJECT_DIR$/.idea/modules/genapi-annotations/genapi-annotations_test.iml" group="genapi-annotations" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genapi-example/genapi-example.iml" filepath="$PROJECT_DIR$/.idea/modules/genapi-example/genapi-example.iml" group="genapi-example" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genapi-example/genapi-example_main.iml" filepath="$PROJECT_DIR$/.idea/modules/genapi-example/genapi-example_main.iml" group="genapi-example" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genapi-example/genapi-example_test.iml" filepath="$PROJECT_DIR$/.idea/modules/genapi-example/genapi-example_test.iml" group="genapi-example" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genapi-processor/genapi-processor.iml" filepath="$PROJECT_DIR$/.idea/modules/genapi-processor/genapi-processor.iml" group="genapi-processor" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genapi-processor/genapi-processor_main.iml" filepath="$PROJECT_DIR$/.idea/modules/genapi-processor/genapi-processor_main.iml" group="genapi-processor" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genapi-processor/genapi-processor_test.iml" filepath="$PROJECT_DIR$/.idea/modules/genapi-processor/genapi-processor_test.iml" group="genapi-processor" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genapi_main.iml" filepath="$PROJECT_DIR$/.idea/modules/genapi_main.iml" group="genapi" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genapi_test.iml" filepath="$PROJECT_DIR$/.idea/modules/genapi_test.iml" group="genapi" />
+    </modules>
+  </component>
+</project>

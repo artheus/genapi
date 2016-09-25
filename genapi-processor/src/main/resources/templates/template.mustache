@@ -1,0 +1,29 @@
+require("AbstractApi");
+
+class {{configuration.className}} extends AbstractApi {
+{{#endpoints}}
+
+    /**
+    * Name: {{name}}
+    * Path: {{path.path}}
+    */
+    {{#methods}}
+        public {{methodName}}{{endpointPascalCaseName}}(
+            {{#params}}
+                {{name}}: {{type}},
+            {{/params}}
+        ) {
+            var data = {
+            {{#params}}
+                "{{name}}": {{name}},
+            {{/params}}
+            };
+
+            super.runPreActions(this.{{methodName}}{{endpointPascalCaseName}});
+            var result = Genapi.core.instance.{{methodName}}("{{configuration.path.path}}{{enpointPathPrefix.path}}{{path.path}}",
+            data);
+            super.runPostActions(this.{{methodName}}{{endpointPascalCaseName}}, result);
+        }
+    {{/methods}}
+{{/endpoints}}
+}
